@@ -3,6 +3,7 @@
 \author{Leiyi548}
 \date{} %不显示时间
 \usepackage{graphicx}  %引入图片的包
+\usepackage{float} %引入图片的包
 \usepackage{setspace}
 \usepackage{fancyhdr}
 \usepackage{subfig}
@@ -102,5 +103,11 @@
     \mu
     \sigma
 \end{equation}
-
+ s
+%添加图片
+\begin{figure}[H] % 此处需要用到宏包
+\centering % 图片居中
+\includegraphics[width = 12cm]{picture/Sequence diagram.png}
+\caption{The caption of this figure(Sequence diagram)}
+\end{figure}
 \end{document}
