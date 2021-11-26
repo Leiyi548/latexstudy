@@ -1,0 +1,64 @@
+\documentclass[UTF8]{ctexart}
+\usepackage{graphicx}  %引入图片的包
+\begin{document}
+\textbf{这是个粗体设置}单独一个回车是空格,两个回车是换行
+\textit{这是个斜体}
+\underline{这是个下划线}
+
+\section{这是第一个章节}
+我们可以在这个章节下面来添加自己的文字
+
+\subsection{这是一个子章节}
+子章节下面的内容
+
+\subsubsection{这是个三级章节}
+三级章节下面的内容
+
+\section{这是第二个章节}
+随便添加一些内容
+
+\begin{equation} %将公式写在单独一行
+    a^2+b^2=c^2
+\end{equation}
+%这是加图片的绝对路径导入
+\includegraphics[width=0.5\textwidth]{/Users/macos/Desktop/计算机操作系统01.pdf} 
+
+\begin{enumerate}
+    \item  列表项1
+    \item  列表项2
+    \item  列表项3
+    \item  列表项4
+\end{enumerate}
+
+爱因斯坦在1905年发现的质能守恒方程为: $E=mc^2$
+
+%分数 用%分隔
+\begin{equation}
+    d={k \varphi(n)+1} \over e
+\end{equation}
+
+
+\begin{tabular}{ c c c}
+    单元格1 & 单元格2 & 单元格3 \\
+    单元格4 & 单元格5 & 单元格6 \\
+    单元格7 & 单元格8 & 单元格9 \\
+\end{tabular}
+
+
+\begin{table}
+    \center
+    %添加边框竖着的边框
+    \begin{tabular}{ |c |c |c|}
+        \hline %添加水平方向的边框
+        \hline %双横线效果
+        单元格1 & 单元格2 & 单元格3 \\
+        \hline
+        单元格4 & 单元格5 & 单元格6 \\
+        \hline
+        单元格7 & 单元格8 & 单元格9 \\
+        \hline
+    \end{tabular}
+    \caption{你可以在这里输入表格的标题}
+\end{table}
+
+\end{document}
